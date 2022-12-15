@@ -1,6 +1,10 @@
 ## nglue implementation in golang
 
-Required golang version: `1.19`. You can [download](https://go.dev/dl/) from Upstream.
+Required golang version: `1.19`. You can [download](https://go.dev/dl/) from
+Upstream.
+
+As the code still uses `libc` from the system, please build it on the
+OS/distribution you will use.
 
 ### How to build?
 
