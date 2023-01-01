@@ -42,10 +42,10 @@ func main() {
 
 	attempt_number := flag.Int("attempt_number", 0, "attempt number")
 	max_attempts := flag.Int("max_attempts", 0, "max attempts")
-	test_api := flag.Bool("test_api", true, "test api")
-	debug := flag.Bool("debug", true, "test api")
-	sync := flag.Bool("sync", true, "test api")
-	validate := flag.Bool("validate", true, "test api")
+	test_api := flag.Bool("test_api", false, "test api")
+	debug := flag.Bool("debug", false, "test api")
+	sync := flag.Bool("sync", false, "test api")
+	validate := flag.Bool("validate", false, "test api")
 
 	flag.Parse()
 
